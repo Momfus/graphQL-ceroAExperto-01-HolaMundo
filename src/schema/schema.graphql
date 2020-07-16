@@ -1,0 +1,7 @@
+
+#Se definen los types (las operaciones y tipos que vamos a exponder en el API)
+type Query {
+    hola: String!
+    holaConNombre(nombre: String!): String!
+    holaAlCursoGraphQL: String!
+}
